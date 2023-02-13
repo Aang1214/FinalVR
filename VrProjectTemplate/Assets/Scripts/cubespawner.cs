@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CubeSpawner : MonoBehaviour
+public class cubespawner : MonoBehaviour
 {
 	public GameObject cubePrefab;
 	public Button spawnButton;
