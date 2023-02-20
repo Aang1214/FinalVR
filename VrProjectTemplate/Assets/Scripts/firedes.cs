@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class firedes : MonoBehaviour
 {
  public bool IsOnFire = true;
-    public GameObject Fire;
+  
     public ParticleSystem part;
     void Start()
     {
@@ -15,7 +15,7 @@ public class firedes : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Fire"))
         {
-            Fire.SetActive(false);
+            other.SetActive(false);
         }
     }
 }
