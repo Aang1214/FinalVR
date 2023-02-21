@@ -28,11 +28,11 @@ public class PlayerUp : MonoBehaviour
             rb.velocity = Vector3.up * up;
         }
 
-        if (Input.GetKey(KeyCode.F))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             water.SetActive(true);
         }
-        if (Input.GetKey(KeyCode.G))
+        if (Input.GetKeyUp(KeyCode.F))
         {
             water.SetActive(false);
         }
