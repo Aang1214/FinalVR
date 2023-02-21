@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fire
   - ladder
+  - baby
   layers:
   - Default
   - TransparentFX

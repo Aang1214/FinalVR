@@ -29,7 +29,7 @@ public class firedes : MonoBehaviour
         if (other.gameObject.CompareTag("Fire"))
         {
             OnFire -= 1f;
-            other.transform.localScale -= new Vector3(0.1f, 0.3f, 0.1f);
+            other.transform.localScale -= new Vector3(0f, 0.3f, 0f);
             if (OnFire <= 0)
             {
                 other.SetActive(false);
