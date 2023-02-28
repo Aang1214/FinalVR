@@ -7,6 +7,7 @@ public class fireextingesher : MonoBehaviour
 {
     private XRGrabInteractable grabInteractable;
     private ParticleSystem particleSystem;
+    
     private void Awake()
     {
         grabInteractable = GetComponent<XRGrabInteractable>();
