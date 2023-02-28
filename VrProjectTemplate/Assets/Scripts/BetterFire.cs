@@ -29,11 +29,7 @@ public class BetterFire : MonoBehaviour
         Transform spawnPoint = spawnPoints[spawnIndex];
 
         ParticleSystem fire = Instantiate(FirePrefab, spawnPoint.position, spawnPoint.rotation);
-        
-
-       
-
-
+     
     }
     IEnumerator SpawnFires()
     {
