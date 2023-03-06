@@ -17,7 +17,10 @@ public class firedes : MonoBehaviour
         if (other.gameObject.CompareTag("Fire"))
         {
             FireHealth -= 1f;
-            other.transform.localScale -= new Vector3(0f, 0.3f, 0f);
+            /*Vector3 obejctLocalScale = other.transform.localPosition;
+            obejctLocalScale.y -= 0.01f;
+            other.transform.localPosition = obejctLocalScale;*/
+            other.transform.localPosition -= new Vector3(0, 0.01f, 0);
             if (FireHealth <= 0)
             {
                 other.SetActive(false);

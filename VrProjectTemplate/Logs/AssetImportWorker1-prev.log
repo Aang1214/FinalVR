@@ -15,7 +15,7 @@ C:/Users/marti/OneDrive - Dundalk Institute of Technology/Documents/GitHub/Final
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50942
+52757
 Successfully changed project path to: C:/Users/marti/OneDrive - Dundalk Institute of Technology/Documents/GitHub/FinalVR/VrProjectTemplate
 C:/Users/marti/OneDrive - Dundalk Institute of Technology/Documents/GitHub/FinalVR/VrProjectTemplate
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/marti/OneDrive - Dundalk Institute of Technology/Documents/GitHub/Final
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 140.53 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 1.05 ms.
+Refreshing native plugins compatible for Editor in 156.70 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 1.38 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/marti/OneDrive - Dundalk Institute of Technology/Documents/GitHub/FinalVR/VrProjectTemplate/Assets
@@ -63,51 +63,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007625 seconds.
+Registered in 0.005434 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 124.87 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 144.87 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.618 seconds
+- Completed reload, in  0.800 seconds
 Domain Reload Profiling:
-	ReloadAssembly (618ms)
-		BeginReloadAssembly (60ms)
+	ReloadAssembly (800ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (455ms)
-			LoadAssemblies (57ms)
+		EndReloadAssembly (574ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (88ms)
+			SetupTypeCache (135ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (348ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (125ms)
+				RefreshPlugins (145ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011837 seconds.
+Registered in 0.012041 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\marti\OneDrive - Dundalk Institute of Technology\Documents\GitHub\FinalVR\VrProjectTemplate\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\marti\OneDrive - Dundalk Institute of Technology\Documents\GitHub\FinalVR\VrProjectTemplate\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 127.83 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 159.58 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Package Manager log level set to [2]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\marti\OneDrive - Dundalk Institute of Technology\Documents\GitHub\FinalVR\VrProjectTemplate\Library\PackageCache\com.unity.xr.oculus@3.0.2\Runtime\OculusLoader.cs:271 
@@ -125,43 +125,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.373 seconds
+- Completed reload, in  1.684 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1373ms)
-		BeginReloadAssembly (102ms)
+	ReloadAssembly (1685ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1165ms)
-			LoadAssemblies (88ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1459ms)
+			LoadAssemblies (107ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
+			SetupTypeCache (379ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (695ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (806ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (128ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (348ms)
-				ProcessInitializeOnLoadMethodAttributes (83ms)
+				RefreshPlugins (160ms)
+				BeforeProcessingInitializeOnLoad (159ms)
+				ProcessInitializeOnLoadAttributes (389ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.64 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 1.61 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
 Unloading 6394 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 62 unused Assets / (0.7 MB). Loaded Objects now: 6833.
-Memory consumption went from 256.0 MB to 255.3 MB.
-Total: 5.651200 ms (FindLiveObjects: 0.768100 ms CreateObjectMapping: 0.396000 ms MarkObjects: 4.073000 ms  DeleteObjects: 0.411400 ms)
+Memory consumption went from 268.8 MB to 268.1 MB.
+Total: 6.501900 ms (FindLiveObjects: 0.833300 ms CreateObjectMapping: 0.404700 ms MarkObjects: 4.854300 ms  DeleteObjects: 0.407900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -173,295 +173,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 174865.256254 seconds.
-  path: Assets/Prefabs/Icosphere 1.prefab
-  artifactKey: Guid(969522879171e8b4e82ca14d9a14dfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Icosphere 1.prefab using Guid(969522879171e8b4e82ca14d9a14dfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1ff57df34b2f76f3451772007ae796') in 0.051572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 754.963162 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/OBJ format/hedge.obj
-  artifactKey: Guid(e063f127497186c4aa1b6fe8732c4946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/OBJ format/hedge.obj using Guid(e063f127497186c4aa1b6fe8732c4946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b66198c232f3d2a426e58c3531a698') in 0.290195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.993768 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/ladder.fbx
-  artifactKey: Guid(b19ae9f516971c244a4eed189571c6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/ladder.fbx using Guid(b19ae9f516971c244a4eed189571c6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82a3a25b3513909de47a017042a4ad6') in 0.077124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.080491 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ladders/PTK_Ladder_Small.fbx
-  artifactKey: Guid(19d9b631e86ab20469c0a25c9706e0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ladders/PTK_Ladder_Small.fbx using Guid(19d9b631e86ab20469c0a25c9706e0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78868b01c68edde9320943b729c21a64') in 0.030999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/OBJ format/ladderBroken.obj
-  artifactKey: Guid(98c96355052ef95478bfc3b392d62e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/OBJ format/ladderBroken.obj using Guid(98c96355052ef95478bfc3b392d62e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67eb9d28fe70918321a48c117738391f') in 0.073472 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.363287 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/ladderLong.fbx
-  artifactKey: Guid(53b9da53bc07e7240b9bc0a8ec902c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/ladderLong.fbx using Guid(53b9da53bc07e7240b9bc0a8ec902c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd052450bf576debe8a06cc79bba00c2') in 0.070623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.047732 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Lamps/PTK_Lamp.fbx
-  artifactKey: Guid(eb2fbcf0faffa74428c3620e86830077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Lamps/PTK_Lamp.fbx using Guid(eb2fbcf0faffa74428c3620e86830077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd0a4d7b77752775812783c34fdc99a') in 0.029224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.853528 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/lock.fbx
-  artifactKey: Guid(f65981f0690336541b97b9a97f8dbf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/lock.fbx using Guid(f65981f0690336541b97b9a97f8dbf24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8020fee7384b8b1b4384770f0beb7be8') in 0.069035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/mushrooms.fbx
-  artifactKey: Guid(0c9a3439672e9194e90caf2629ac9c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/mushrooms.fbx using Guid(0c9a3439672e9194e90caf2629ac9c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19eadb1efcf539bfc8b13540be59d622') in 0.056779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Models/Primitive_Wedge.fbx
-  artifactKey: Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Models/Primitive_Wedge.fbx using Guid(ab3a79eba4de4be0ad5fead9fb858190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ea422f0e40c74bd7fe571fb3db3746') in 0.043429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.245962 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/plant.fbx
-  artifactKey: Guid(910e8e9d08e8b624da435323166604b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/plant.fbx using Guid(910e8e9d08e8b624da435323166604b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51c1fdf6c2194f0bea7bfe0ead1bd48') in 0.052348 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/OBJ format/platform.obj
-  artifactKey: Guid(1170ecc4b8da4ae47aef5dc29c84af0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/OBJ format/platform.obj using Guid(1170ecc4b8da4ae47aef5dc29c84af0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375aae63ecb3d36acaa5eea98a39cc66') in 0.075970 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.245040 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Containers/PTK_Pool.fbx
-  artifactKey: Guid(d7132754baf7d324581dba842f24a42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Containers/PTK_Pool.fbx using Guid(d7132754baf7d324581dba842f24a42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1776c6b5194f167dc366e1618d9d7945') in 0.061219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Models/Primitive_Torus.fbx
-  artifactKey: Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/Models/Primitive_Torus.fbx using Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe795ad4f8c7950641b109ba37a1c1d7') in 0.045095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Samples/XR Hands/1.1.0-pre.2/HandVisualizer/Models/RightHand.fbx
-  artifactKey: Guid(56186ccf27ad7864681108ed88349071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Hands/1.1.0-pre.2/HandVisualizer/Models/RightHand.fbx using Guid(56186ccf27ad7864681108ed88349071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3353eb92cc102ac8658b7ea7f759f113') in 0.080326 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ramps/PTK_Ramp_Medium.fbx
-  artifactKey: Guid(2dffeac91db69a34c93894d3c0f32114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Ramps/PTK_Ramp_Medium.fbx using Guid(2dffeac91db69a34c93894d3c0f32114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74cb5ad461e3c3e64b323506328be1a4') in 0.032267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.312901 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/rocks.fbx
-  artifactKey: Guid(9c0697ad02d915f4f972cdf5fd2d8cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/rocks.fbx using Guid(9c0697ad02d915f4f972cdf5fd2d8cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946ccbb4ea1cf14a8d163b162fb83c62') in 0.091659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/OBJ format/rocks.obj
-  artifactKey: Guid(deb9538f673c6c640816d8d4200e5b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/OBJ format/rocks.obj using Guid(deb9538f673c6c640816d8d4200e5b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399f220ee7e459d3de16112d4298f5fd') in 0.112849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.619216 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/OBJ format/sign.obj
-  artifactKey: Guid(36f3bd826f5e74b4aa63497a3d5d8cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/OBJ format/sign.obj using Guid(36f3bd826f5e74b4aa63497a3d5d8cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2205dc5829c1194e3b6c94132f31f11f') in 0.124822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.340538 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_SlidingDoor_Medium.fbx
-  artifactKey: Guid(6e68c6e5d7bfee343872a63435900cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_SlidingDoor_Medium.fbx using Guid(6e68c6e5d7bfee343872a63435900cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dce16d361504b2e8ec4d6d3cea9be8') in 0.105122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.424947 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/OBJ format/spikeBlockWide.obj
-  artifactKey: Guid(30a5ac41b1e5c344aa302002b7bd014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/OBJ format/spikeBlockWide.obj using Guid(30a5ac41b1e5c344aa302002b7bd014a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddddd45dcb9f297899b42207f76fe195') in 0.109313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.275668 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/OBJ format/spikes.obj
-  artifactKey: Guid(76529e7d340a5e64bb15c0ed2b68b91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/OBJ format/spikes.obj using Guid(76529e7d340a5e64bb15c0ed2b68b91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7f4f2f6690a2ca66157f1b520bc65e') in 0.060736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/spikesHidden.fbx
-  artifactKey: Guid(a9d8ac2ce64017a4c8d61fde3b3ebc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/spikesHidden.fbx using Guid(a9d8ac2ce64017a4c8d61fde3b3ebc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f272dfd83dacd93b517f1467f681fa3d') in 0.062550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.467525 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/spikesLarge.fbx
-  artifactKey: Guid(882ef40b96d12d0488683e67e0576d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/spikesLarge.fbx using Guid(882ef40b96d12d0488683e67e0576d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc97555f46aec1cbbc0a3026015d7dc8') in 0.070467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs/PTK_Stairs_Medium.fbx
-  artifactKey: Guid(2ebe213ac045e234092df98cf47cabf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Stairs/PTK_Stairs_Medium.fbx using Guid(2ebe213ac045e234092df98cf47cabf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e9634d03b980640ef15168b384b242') in 0.034262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.847480 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/OBJ format/tree.obj
-  artifactKey: Guid(eddecfa00b2ad544bbd42dcdb0d0949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/OBJ format/tree.obj using Guid(eddecfa00b2ad544bbd42dcdb0d0949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f871366ae873c75e3afa8b2b52858ca') in 0.079332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.218082 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/OBJ format/treePine.obj
-  artifactKey: Guid(338b4ffee33e11f46890ee9663c3cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/OBJ format/treePine.obj using Guid(338b4ffee33e11f46890ee9663c3cbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4842c0d65ebf92af8b2abd2b547171b') in 0.099899 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/treePineSmall.fbx
-  artifactKey: Guid(a46127eed931c924b9b178d436d7ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/treePineSmall.fbx using Guid(a46127eed931c924b9b178d436d7ee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d1a290dbbf95ffae6a02b1a5161cc3') in 0.092323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.892960 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/OBJ format/treePineSmallSnow.obj
-  artifactKey: Guid(a327813e01caab94d9289e28116c4aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/OBJ format/treePineSmallSnow.obj using Guid(a327813e01caab94d9289e28116c4aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e675a74eda55b369f3c192216b8b09') in 0.104138 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/OBJ format/treePineSnow.obj
-  artifactKey: Guid(32e200dde718eae4d83af3a1da841617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/OBJ format/treePineSnow.obj using Guid(32e200dde718eae4d83af3a1da841617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af1b5da2e8448b99f2f688dc5ac6232') in 0.081500 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.155137 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Small.fbx
-  artifactKey: Guid(27981a572ea15ec40b2732ef1bcf729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Small.fbx using Guid(27981a572ea15ec40b2732ef1bcf729d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60262e15e06e780a9796530777e5967') in 0.085583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.2.0/Tunneling Vignette/TunnelingVignetteHemisphere.fbx
-  artifactKey: Guid(0863a94853770ec459e2b729cb7fc574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.2.0/Tunneling Vignette/TunnelingVignetteHemisphere.fbx using Guid(0863a94853770ec459e2b729cb7fc574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f00482028344078dc71e30b057bf5b') in 0.040022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_2.fbx
-  artifactKey: Guid(e48618fbdec2537478b522aba0afb4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Large_2.fbx using Guid(e48618fbdec2537478b522aba0afb4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5604689f264194f08c588b607faeb86') in 0.047978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Large.fbx
-  artifactKey: Guid(2113dea347164f748b9c48514e713cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Doors/PTK_Tunnel_Large.fbx using Guid(2113dea347164f748b9c48514e713cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21186e68a3a8501ce61b5bdae398c388') in 0.045410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_1.fbx
-  artifactKey: Guid(2183062a1aaf38d45bee331d654faa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_1.fbx using Guid(2183062a1aaf38d45bee331d654faa96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cad55ca8f8cc4d0bbf494b533f77c0dc') in 0.059426 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_4.fbx
-  artifactKey: Guid(6409fb7750997fc40b41f3507c72d578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_4.fbx using Guid(6409fb7750997fc40b41f3507c72d578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc5bae53dc45982030a21310cbdff80') in 0.081953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_5.fbx
-  artifactKey: Guid(5e97430da0fcae442af8cdb8fe92482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Medium_5.fbx using Guid(5e97430da0fcae442af8cdb8fe92482b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '791a9bfe884dd549e6c567c86b716ef6') in 0.040994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_1.fbx
-  artifactKey: Guid(8fa14b9a88e1e3b438b750cb6a5ab0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Walls/PTK_Wall_Small_1.fbx using Guid(8fa14b9a88e1e3b438b750cb6a5ab0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be1f9c7e7c286deddd5d8e693bcad1d8') in 0.055176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.766751 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/flowers.fbx
-  artifactKey: Guid(8b680e5953893934993c01ee814d9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/flowers.fbx using Guid(8b680e5953893934993c01ee814d9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c1dec014bca5ba5172c3bb3875cd52') in 0.123422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/doorClosed.fbx
-  artifactKey: Guid(c474a366ce6506b45ace672123163c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/doorClosed.fbx using Guid(c474a366ce6506b45ace672123163c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c31d909c1d57b0918583ca2aa0cf5d2') in 0.125162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_5.fbx
-  artifactKey: Guid(6cfb80454aee73840b7e1a3bb551ea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Cuboids/PTK_Cuboid_5.fbx using Guid(6cfb80454aee73840b7e1a3bb551ea1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357697b2b4487ff6de475ed3416d6770') in 0.036479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_Elevator.fbx
-  artifactKey: Guid(985cd6d57cb8650408d3496bcdccd54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Elevators/PTK_Elevator.fbx using Guid(985cd6d57cb8650408d3496bcdccd54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad483c1be69268a19a81b07ac34bc2b') in 0.136968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Large.fbx
-  artifactKey: Guid(13c5b9d94ac272145a30191629f297fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DigitalKonstrukt/Prototyping_Pack_Free/Resources/Meshes/Columns/PTK_Column_Large.fbx using Guid(13c5b9d94ac272145a30191629f297fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422de5857ab48f5ea992a70bbaa906a3') in 0.052603 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/crate.fbx
-  artifactKey: Guid(e5ed298f262b86d42ad4afa5cb36f36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/crate.fbx using Guid(e5ed298f262b86d42ad4afa5cb36f36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5c69716a466bc0a6613dabf66413f1f') in 0.080345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/flowersLow.fbx
-  artifactKey: Guid(eb18b3848cc18b441ae99f0f8d2552ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/flowersLow.fbx using Guid(eb18b3848cc18b441ae99f0f8d2552ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa9bf09010f4018bc6758e3f947ae56') in 0.138455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/fenceCornerCurved.fbx
-  artifactKey: Guid(615b496bbabf0b7489c8bc97eab369b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/fenceCornerCurved.fbx using Guid(615b496bbabf0b7489c8bc97eab369b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139a1d7db5f84557c52a01b4cbf49144') in 0.089690 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/crateItem.fbx
-  artifactKey: Guid(448eb21131168ab48a70c633691c980c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/crateItem.fbx using Guid(448eb21131168ab48a70c633691c980c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '976be2312922be1333430dd5c3f0430d') in 0.070192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/platformer-kit-2.2 (1)/Models/FBX format/fenceLow.fbx
-  artifactKey: Guid(034a1540997084b40a9075f00bb8c936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/platformer-kit-2.2 (1)/Models/FBX format/fenceLow.fbx using Guid(034a1540997084b40a9075f00bb8c936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5a4a62308bad17749ff3ee9afbea18') in 0.109058 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
