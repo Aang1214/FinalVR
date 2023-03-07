@@ -8,9 +8,11 @@ public class firedes : MonoBehaviour
 {
     public float FireHealth = 100f;
     public ParticleSystem part;
+    public ParticleSystem fire;
     void Start()
     {
         part = GetComponent<ParticleSystem>();
+        fire = GetComponent<ParticleSystem>();
     }
     public void OnParticleCollision(GameObject other)
     {

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class FireHealth : MonoBehaviour
 {
-    public float FireHealt = 100f;
+    public static int FireHealt = 100;
+    
     
 }
